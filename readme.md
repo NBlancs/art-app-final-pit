@@ -1,4 +1,4 @@
-# Project Name: Rainbow Spiral Art
+<h1 align="center">Project Name: Rainbow Spiral Art</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-active-brightgreen?style=flat&logo=checkmarx&logoColor=white" />
