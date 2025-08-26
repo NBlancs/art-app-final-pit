@@ -13,13 +13,14 @@
 
 ## 🌈 Rainbow Spiral Art
 
-This project demonstrates the use of **Python Turtle Graphics** to create a **dynamic, colorful spiral pattern** that shifts through the RGB color spectrum. The spiral is accompanied by a **custom title** and **author credits** displayed in the Turtle window.
+This project demonstrates the creation of a **dynamic, colorful spiral pattern** that shifts through the RGB color spectrum. Originally implemented with **Python Turtle Graphics**, it now includes a **web version** using HTML5 Canvas and JavaScript!
 
 ### 🎨 Features
 - **Dynamic Spiral Drawing:** A vibrant, swirling pattern that shifts across the RGB spectrum.
 - **Color Gradients:** Smooth transitions between red, green, and blue channels.
-- **Text Labels:** Displays **project credits** and **presentation details** at the bottom of the screen.
-- **Turtle Graphics API:** Simple yet powerful use of the `turtle` module to create art.
+- **Text Labels:** Displays **project credits** and **presentation details**.
+- **Multiple Versions:** Both Python (Turtle Graphics) and Web (HTML5 Canvas) implementations.
+- **Interactive Web Controls:** Start/Stop animation and reset functionality in the web version.
 
 ---
 
@@ -27,21 +28,25 @@ This project demonstrates the use of **Python Turtle Graphics** to create a **dy
 
 | Component        | Description                        |
 |------------------|------------------------------------|
-| **Language**     | Python 3.11+                       |
-| **Graphics**     | Turtle Graphics (`turtle` module)  |
+| **Language**     | Python 3.11+ (Original)            |
+| **Web Version**  | HTML5, CSS3, JavaScript (ES6+)     |
+| **Graphics**     | Turtle Graphics (`turtle` module) / HTML5 Canvas |
 | **IDE/Editor**   | Any Python IDE (e.g., PyCharm, VS Code) |
+| **Browser**      | Modern web browsers (Chrome, Firefox, Safari, Edge) |
 | **License**      | MIT                                |
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### Python Version
+
+#### Prerequisites
 
 Ensure you have **Python 3.11+** installed on your system.  
 You can download Python from the [official website](https://www.python.org/downloads/).
 
-### Run the Project
+#### Run the Python Project
 
 1️⃣ Clone this repository:
 
@@ -50,11 +55,30 @@ git clone <YOUR_GIT_REPO_URL>
 cd <YOUR_PROJECT_DIRECTORY>
 ``` 
 
-
 2️⃣ Run the Python script:
 ```
-python rainbow_spiral.py
+python main.py
 ```
+
+### Web Version
+
+The project now includes a **web version** using HTML5 Canvas and JavaScript that recreates the same beautiful rainbow spiral art!
+
+#### Run the Web Version
+
+1️⃣ Open `index.html` in any modern web browser, or
+
+2️⃣ Start a local web server:
+```bash
+python -m http.server 8000
+```
+Then open http://localhost:8000 in your browser.
+
+#### Web Features
+- **Interactive Controls:** Start Animation and Reset buttons
+- **Same Algorithm:** Identical spiral pattern and color transitions as Python version
+- **Responsive Design:** Works on desktop and mobile browsers
+- **Smooth Animation:** Watch the spiral draw progressively with color transitions
 
 ---
 ## 🎓 Credits
